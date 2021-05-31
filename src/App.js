@@ -3,8 +3,8 @@ import Layout from './components/Layout';
 
 const App = () => {
   return (
-    <Layout></Layout>
-  );
+    <Layout>children</Layout>
+  )
 }
 
 export default App;

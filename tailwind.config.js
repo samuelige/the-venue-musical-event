@@ -2,7 +2,13 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+       'bFirstImage': "url('./../src/assets/p1.jpg')",
+       'bSecondImage': "url('./../src/assets/p2.jpg')",
+       'bThirdImage': "url('./../src/assets/p3.jpg')",
+      })
+    },
   },
   variants: {
     extend: {},
