@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CustomLinks = ({...rest, path, label}) => {
+const CustomLinks = ({path, label, children, ...rest}) => {
     return (
         <a {...rest} href={path}>
             {children || label}
