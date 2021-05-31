@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Sticky from 'react-stickynode';
+import Banner from '../sections/banner';
 import Header from './header/Header';
 
 const Layout = ({children}) => {
@@ -16,11 +17,18 @@ const Layout = ({children}) => {
     return (
         
         <React.Fragment>
-            <Sticky innerZ={1001} top={0} onStateChange={handleStateChange}>
-                <Header className={`${isSticky ? 'sticky' : 'unSticky'}`} />
-            </Sticky>
+            <header className="box-content h-screen">
+              <div className="absolute w-full">
+                <Sticky innerZ={1001} top={0} onStateChange={handleStateChange}>
+                    <Header className={`${isSticky ? 'sticky bg-red-700 text-white' : 'unSticky text-white'}`} />
+                </Sticky>
+              </div>
+              <div className="relative w-full">
+                <Banner/>
+              </div>
+            </header>
 
-            <main id="content" sx={{ variant: 'layout.main'}} >
+            <main className="" id="content" >
                 {children}
             </main>
         </React.Fragment>
