@@ -7,7 +7,12 @@ module.exports = {
        'bFirstImage': "url('./../src/assets/p1.jpg')",
        'bSecondImage': "url('./../src/assets/p2.jpg')",
        'bThirdImage': "url('./../src/assets/p3.jpg')",
-      })
+      }),
+      height: theme => ({
+       'customHeight': '50vh',
+       'customHeight2': '70vh',
+        
+       })
     },
   },
   variants: {
