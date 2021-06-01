@@ -17,10 +17,10 @@ const Layout = ({children}) => {
     return (
         
         <React.Fragment>
-            <header className="box-content h-screen">
+            <header className="box-content h-customHeight2 md:h-customHeight lg:h-screen ">
               <div className="absolute w-full">
                 <Sticky innerZ={1001} top={0} onStateChange={handleStateChange}>
-                    <Header className={`${isSticky ? 'sticky bg-red-700 text-white' : 'unSticky text-white'}`} />
+                    <Header className={`${isSticky ? 'sticky bg-red-700 text-white' : 'unSticky'}`} />
                 </Sticky>
               </div>
               <div className="relative w-full">
