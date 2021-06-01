@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CountDown = ({deadline, days, hours, minutes, seconds}) => {
+const CountDown = ({ days, hours, minutes, seconds}) => {
     return (
         <div className="border-0 w-64 md:w-72 rounded-lg space-y-3 py-2 px-2 md:px-3 bg-red-700 text-white">
             <h3>EVENT STARTS IN</h3>
