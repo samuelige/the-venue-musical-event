@@ -1,9 +1,12 @@
 import React from 'react'
 import Layout from './components/Layout';
+import Venue from './sections/venue';
 
 const App = () => {
   return (
-    <Layout>children</Layout>
+    <Layout>
+      <Venue/>
+    </Layout>
   )
 }
 
