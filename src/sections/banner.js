@@ -1,5 +1,6 @@
 import BFeatured from "../components/Banner-Featured/BFeatured"
 import Carrousel from "../components/Banner-Featured/Carrousel";
+import CountDown from "../components/Banner-Featured/CountDown";
 
 
 const Banner = () => {
@@ -13,6 +14,9 @@ const Banner = () => {
         <BFeatured/>
       </div>
       
+      <div className="w-full relative top-96">
+        <CountDown/>
+      </div>
     </div>
   );
 }
