@@ -1,6 +1,7 @@
 import BFeatured from "../components/Banner-Featured/BFeatured"
 import Carrousel from "../components/Banner-Featured/Carrousel";
 import CountDown from "../components/Banner-Featured/CountDown";
+import Slide from 'react-reveal/Slide';
 
 
 const Banner = () => {
@@ -15,7 +16,10 @@ const Banner = () => {
       </div>
       
       <div className="w-full relative top-96">
-        <CountDown/>
+        <Slide left>
+          <CountDown/>
+        </Slide>
+        
       </div>
     </div>
   );
