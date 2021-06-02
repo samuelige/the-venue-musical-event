@@ -7,7 +7,7 @@ import Zoom from 'react-reveal/Zoom';
 
 const Pricing = () => {
     return (
-        <div className="w-full space-y-20 px-20">
+        <div className="w-full space-y-20 px-20 pb-20">
             <div className="text-center">
                 <SectionHeader>Pricing</SectionHeader>
             </div>
