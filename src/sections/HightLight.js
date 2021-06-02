@@ -44,7 +44,7 @@ const HightLight = () => {
     }, 10);
      
     return (
-        <div className="p-10 md::p-20">
+        <div className="p-10 md:p-20 ">
             <div className="text-center p-4">
                 <SectionHeader>{header}</SectionHeader>
             </div>
@@ -53,7 +53,7 @@ const HightLight = () => {
                 <p>{main}</p>
                 <hr/>
             </div>
-            <div className="grid grid-cols-1 grid-rows-2 md:grid-flow-col md:grid-cols-3 md:p-10 items-center">
+            <div className="grid grid-cols-1 grid-rows-2 md:grid-flow-col md:grid-rows-1 md:grid-cols-3 md:p-10 items-center">
                 <Fade onReveal={()=>  handleDiscount()}>
                     <div className="text-center">
                         <p className="text-5xl font-bold uppercase">{state.discountStart}%</p>
