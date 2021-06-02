@@ -7,6 +7,10 @@ const Pricing = () => {
             <div className="text-center">
                 <SectionHeader>Pricing</SectionHeader>
             </div>
+
+            <section>
+                
+            </section>
         </div>
     )
 }
