@@ -1,9 +1,12 @@
 import React from 'react'
+import SectionHeader from '../components/SectionHeader'
 
 const Pricing = () => {
     return (
         <div>
-            <h1>Pricing</h1>
+            <div className="text-center">
+                <SectionHeader>Pricing</SectionHeader>
+            </div>
         </div>
     )
 }
