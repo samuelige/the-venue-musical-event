@@ -4,7 +4,7 @@ import SectionHeader from '../components/SectionHeader'
 
 const Location = () => {
     return (
-        <div className="space-y-10 py-10">
+        <div className="space-y-10 pt-10">
             <div className="text-center">
                 <SectionHeader>Location</SectionHeader>
             </div>
