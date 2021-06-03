@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from './components/Layout';
+import Footer from './sections/Footer';
 import HightLight from './sections/HightLight';
 import Location from './sections/Location';
 import Pricing from './sections/Pricing';
@@ -12,6 +13,7 @@ const App = () => {
       <HightLight/>
       <Pricing/>
       <Location/>
+      <Footer/>
     </Layout>
   )
 }
